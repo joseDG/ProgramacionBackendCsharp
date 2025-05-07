@@ -1,0 +1,15 @@
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\bin\Debug\net8.0\IntroCsharpBackend.exe
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\bin\Debug\net8.0\IntroCsharpBackend.deps.json
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\bin\Debug\net8.0\IntroCsharpBackend.runtimeconfig.json
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\bin\Debug\net8.0\IntroCsharpBackend.dll
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\bin\Debug\net8.0\IntroCsharpBackend.pdb
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\obj\Debug\net8.0\IntroCsharpBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\obj\Debug\net8.0\IntroCsharpBackend.AssemblyInfoInputs.cache
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\obj\Debug\net8.0\IntroCsharpBackend.AssemblyInfo.cs
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\obj\Debug\net8.0\IntroCsharpBackend.csproj.CoreCompileInputs.cache
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\obj\Debug\net8.0\IntroCsharpBackend.sourcelink.json
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\obj\Debug\net8.0\IntroCsharpBackend.dll
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\obj\Debug\net8.0\refint\IntroCsharpBackend.dll
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\obj\Debug\net8.0\IntroCsharpBackend.pdb
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\obj\Debug\net8.0\IntroCsharpBackend.genruntimeconfig.cache
+C:\Users\Usuario iTC\Documents\ApiNetCore8\ProgramacionBackendEnC#\IntroCsharpBackend\IntroCsharpBackend\obj\Debug\net8.0\ref\IntroCsharpBackend.dll
