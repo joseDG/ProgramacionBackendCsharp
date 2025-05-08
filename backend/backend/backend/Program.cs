@@ -14,6 +14,8 @@ builder.Services.AddKeyedSingleton<IPeopleService, PeopleService2>("peopleServic
 builder.Services.AddKeyedSingleton<IRandomService, RandomService>("randomSingleton");
 builder.Services.AddKeyedScoped<IRandomService, RandomService>("randomScoped");
 builder.Services.AddKeyedTransient<IRandomService, RandomService>("randomTransient");
+//add Service de Beer
+builder.Services.AddKeyedScoped<ICommonService<BeerDto, BeerInsertDto, BeerUpdateDto>, BeerService>("beerService");
 
 // HttpClient service Conexion ala API jsonplaceholder
 builder.Services.AddHttpClient<IPostsService, PostsService>(c =>
@@ -30,6 +32,7 @@ builder.Services.AddDbContext<StoreContext>(options =>
 // Validators
 builder.Services.AddScoped<IValidator<BeerInsertDto>, BeerInsertValidator>();
 builder.Services.AddScoped<IValidator<BeerUpdateDto>, BeerUpdateValidator>();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
