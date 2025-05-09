@@ -12,17 +12,17 @@ namespace backend.Controllers
     [ApiController]
     public class BeerController : ControllerBase
     {
-        private StoreContext _context;
+        
         private IValidator<BeerInsertDto> _beerInsertValidator;
         private IValidator<BeerUpdateDto> _beerUpdateValidator;
         private ICommonService<BeerDto, BeerInsertDto, BeerUpdateDto> _beerService;
 
-        public BeerController(StoreContext context,
+        public BeerController(
             IValidator<BeerInsertDto> beerInsertValidator,
             IValidator<BeerUpdateDto> beerUpdateValidator,
             [FromKeyedServices("beerService")] ICommonService<BeerDto, BeerInsertDto, BeerUpdateDto> beerService)
         {
-            _context = context;
+
             _beerInsertValidator = beerInsertValidator;
             _beerUpdateValidator = beerUpdateValidator;
             _beerService = beerService;
@@ -53,6 +53,12 @@ namespace backend.Controllers
                 return BadRequest(validationResult.Errors);
             }
 
+            //agregando la validacion
+            if (!_beerService.Validate(beerInsertDto))
+            {
+                return BadRequest(_beerService.Errors);
+            }
+
             var beerDto = await _beerService.CreateAsync(beerInsertDto);
 
             return CreatedAtAction(nameof(GetById), new { id = beerDto.Id }, beerDto);
@@ -66,6 +72,13 @@ namespace backend.Controllers
             {
                 return BadRequest(validationResult.Errors);
             }
+
+            //agregando la validacion
+            if (!_beerService.Validate(beerUpdateDto))
+            {
+                return BadRequest(_beerService.Errors);
+            }
+
             var beerDto = await _beerService.UpdateAsync(id, beerUpdateDto);
             return beerDto == null ? NotFound() : Ok(beerDto);
         }

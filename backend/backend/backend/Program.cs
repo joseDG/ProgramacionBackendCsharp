@@ -1,5 +1,7 @@
+using backend.Automappers;
 using backend.DTOs;
 using backend.Models;
+using backend.Repository;
 using backend.Services;
 using backend.Validators;
 using FluentValidation;
@@ -23,15 +25,23 @@ builder.Services.AddHttpClient<IPostsService, PostsService>(c =>
     c.BaseAddress = new Uri(builder.Configuration["BaseUrlPosts"]);
 });
 
+// Repositories
+builder.Services.AddScoped<IRepository<Beer>, BeerRepository>();
+builder.Services.AddScoped<BeerRepository>();
 // Entity Framework
 builder.Services.AddDbContext<StoreContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("StoreConnection"));
 });
 
+
+
 // Validators
 builder.Services.AddScoped<IValidator<BeerInsertDto>, BeerInsertValidator>();
 builder.Services.AddScoped<IValidator<BeerUpdateDto>, BeerUpdateValidator>();
+
+// Automapper
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 
 builder.Services.AddControllers();

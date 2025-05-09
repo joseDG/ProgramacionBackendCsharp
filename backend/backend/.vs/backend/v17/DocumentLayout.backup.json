@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3E0705-BDFD-4C70-A7EE-4880BCA013D9}|backend\\backend.csproj|c:\\users\\usuario itc\\documents\\programacionbackendenc#\\backend\\backend\\backend\\services\\beerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3E0705-BDFD-4C70-A7EE-4880BCA013D9}|backend\\backend.csproj|solutionrelative:backend\\services\\beerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3E0705-BDFD-4C70-A7EE-4880BCA013D9}|backend\\backend.csproj|c:\\users\\usuario itc\\documents\\programacionbackendenc#\\backend\\backend\\backend\\repository\\beerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3E0705-BDFD-4C70-A7EE-4880BCA013D9}|backend\\backend.csproj|solutionrelative:backend\\repository\\beerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3E0705-BDFD-4C70-A7EE-4880BCA013D9}|backend\\backend.csproj|c:\\users\\usuario itc\\documents\\programacionbackendenc#\\backend\\backend\\backend\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3E0705-BDFD-4C70-A7EE-4880BCA013D9}|backend\\backend.csproj|solutionrelative:backend\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3E0705-BDFD-4C70-A7EE-4880BCA013D9}|backend\\backend.csproj|c:\\users\\usuario itc\\documents\\programacionbackendenc#\\backend\\backend\\backend\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3E0705-BDFD-4C70-A7EE-4880BCA013D9}|backend\\backend.csproj|solutionrelative:backend\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3E0705-BDFD-4C70-A7EE-4880BCA013D9}|backend\\backend.csproj|c:\\users\\usuario itc\\documents\\programacionbackendenc#\\backend\\backend\\backend\\services\\icommonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3E0705-BDFD-4C70-A7EE-4880BCA013D9}|backend\\backend.csproj|solutionrelative:backend\\services\\icommonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\backend\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\backend\\Repository\\IRepository.cs",
+              "RelativeToolTip": "backend\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:09:47.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BeerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\backend\\Repository\\BeerRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Repository\\BeerRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\backend\\Repository\\BeerRepository.cs",
+              "RelativeToolTip": "backend\\Repository\\BeerRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:03:49.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BeerController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\backend\\Controllers\\BeerController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\BeerController.cs",
+              "ToolTip": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\backend\\Controllers\\BeerController.cs",
+              "RelativeToolTip": "backend\\Controllers\\BeerController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:54:38.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BeerService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\backend\\Services\\BeerService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\BeerService.cs",
+              "ToolTip": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\backend\\Services\\BeerService.cs",
+              "RelativeToolTip": "backend\\Services\\BeerService.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwGcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:50:53.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICommonService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\backend\\Services\\ICommonService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\ICommonService.cs",
+              "ToolTip": "C:\\Users\\Usuario iTC\\Documents\\ProgramacionBackendEnC#\\backend\\backend\\backend\\Services\\ICommonService.cs",
+              "RelativeToolTip": "backend\\Services\\ICommonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:46:18.951Z",
+              "EditorCaption": ""
             }
           ]
         }
